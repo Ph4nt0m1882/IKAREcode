@@ -39,3 +39,14 @@ utilisation:
           8 en haut il y à un icon nommer 'create a pull request'
           9 mettre un message au pif et valide avec ctr+entrer
           10 et retourne sur GitHub vérifier que les modifications sont bien valider
+
+Execution:
+          Pour éxecuter je vais banaliser: il y à plus rapide mais beaucoup plus complexe
+          1 ouvre le répertoire dans le main
+          2 appuye sur code
+          3 download en .zip
+          4 tu extrais
+          5 dans vscode(sans avoir lancer GitHub Repository) tu appuyes sur ctrl+k puis ctrl+o
+          6 tu ouvre le fichier que tu as extrait
+          7 dans l'explorer tu ouvres le main.py
+          8 tu l'execute avec le triangle en haut à droite
