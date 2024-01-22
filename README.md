@@ -39,6 +39,8 @@ utilisation:
           8 en haut il y à un icon nommer 'create a pull request'
           9 mettre un message au pif et valide avec ctr+entrer
           10 et retourne sur GitHub vérifier que les modifications sont bien valider
+          11 pour fermer GitHub tu clic sur le bouton GitHub en bas à gauche
+          12 sa ouvre une fenêtre: tu clics sur le bouton le plus bas close remote workspace
 
 Execution:
           Pour éxecuter je vais banaliser: il y à plus rapide mais beaucoup plus complexe
