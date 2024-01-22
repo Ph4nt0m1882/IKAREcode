@@ -21,8 +21,13 @@
          \/____/                  \|___|                   \/____/                  \|___|                   \/____/         
                                                                                                                 
                                                                                                                              
-                                                                                                                             
-                                                                                                                             
+instalation:
+          1 Installer vscode: https://code.visualstudio.com/Download
+          2 ouvrir vscode et ouvrir l'exporateur d'extension (ctrl+shift+x)
+          3 Installer l'extension Python de microsoft
+          4 Installer l'extensions GitHub Repository
+          5 Installer l'extension Live Share
+
 utilisation:
           1 Dans vscode: ouvrir la fenêtre remote explorer (sous extensions)
           2 appuier sur +
