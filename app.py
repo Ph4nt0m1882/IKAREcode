@@ -8,6 +8,7 @@ class App:
 
     def running(self):
         while True:
+            self.screen.fill("#FFFFFF")
             for event in pg.event.get():
                 if event.type==pg.QUIT:
                     pg.quit()
