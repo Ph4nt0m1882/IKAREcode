@@ -4,6 +4,7 @@ class App:
 
     def __init__(self):
         self.screen=pg.display.set_mode(((360,680)))
+        pg.display.set_caption("IKARE")
 
     def running(self):
         while True:
