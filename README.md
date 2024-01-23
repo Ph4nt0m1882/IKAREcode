@@ -1,3 +1,4 @@
+```
           _____                    _____                    _____                    _____                    _____          
          /\    \                  /\    \                  /\    \                  /\    \                  /\    \         
         /::\    \                /::\____\                /::\    \                /::\    \                /::\    \        
@@ -20,7 +21,7 @@
         \::/    /                \:|   |                  \::/    /                \:|   |                  \::/    /        
          \/____/                  \|___|                   \/____/                  \|___|                   \/____/         
                                                                                                                 
-                                                                                                                             
+```                                                                                                                             
 instalation:
           1 Installer vscode: https://code.visualstudio.com/Download
           2 ouvrir vscode et ouvrir l'exporateur d'extension (ctrl+shift+x)
