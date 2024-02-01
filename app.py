@@ -5,10 +5,14 @@ class App:
     def __init__(self):
         self.screen=pg.display.set_mode(((360,680)))
         pg.display.set_caption("IKARE")
+        self.width,self.height=self.screen.get_size()
+        self.colorBG=(255,255,224,255)
+
+    def show(self):
+        self.scren.fill(self.colorBG)
 
     def running(self):
         while True:
-            self.screen.fill("#FFFFFF")
             for event in pg.event.get():
                 if event.type==pg.QUIT:
                     pg.quit()
