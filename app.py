@@ -12,10 +12,19 @@ class App:
             pg.image.load(os.path.join(self.path,"images/AsphalosTitle.png"))
         ]
         self.items[0]=pg.transform.scale(self.items[0],(self.items[0].get_width()*0.3,self.items[0].get_height()*0.3))
+        self.pages={
+            "start":True,
+            "inscription":False,
+            "connexion":False,
+            "acceuil":False,
+            "security":False,
+            "domestique":False
+        }
 
     def show(self):
-        self.screen.fill(self.colorBG)
-        self.screen.blit(self.items[0],((self.width-self.items[0].get_width())//2,10))
+        if self.pages["acceuil"]:
+            self.screen.fill(self.colorBG)
+            self.screen.blit(self.items[0],((self.width-self.items[0].get_width())//2,10))
 
     def running(self):
         while True:
