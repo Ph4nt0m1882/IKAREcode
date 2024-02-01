@@ -15,7 +15,7 @@ class App:
 
     def show(self):
         self.screen.fill(self.colorBG)
-        self.screen.blit(self.items[0],(self.width-self.items[0].get_width())//2,10)
+        self.screen.blit(self.items[0],((self.width-self.items[0].get_width())//2,10))
 
     def running(self):
         while True:
