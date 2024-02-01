@@ -11,14 +11,15 @@ class App:
         self.items=[
             pg.image.load(os.path.join(self.path,"images/AsphalosTitle.png"))
         ]
-        self.items[0]=pg.transform.scale(self.items[0],)
+        self.items[0]=pg.transform.scale(self.items[0],(self.items[0].get_width()*0.3,self.items[0].get_height()*0.3))
 
     def show(self):
         self.screen.fill(self.colorBG)
-        self.screen.blit(self.items[0])
+        self.screen.blit(self.items[0],(self.width-self.items[0].get_width())//2,10)
 
     def running(self):
         while True:
+            self.show()
             for event in pg.event.get():
                 if event.type==pg.QUIT:
                     pg.quit()
