@@ -97,7 +97,10 @@ class Source:
                     if event.type==pg.MOUSEMOTION:
                         if self.tree["inscryption"]:
                             if self.scrollRect.collidepoint(event.pos) and event.buttons[0]==1:
+                                if not hasattr(self, "startPos"):self.startPos=event.pos
                                 self.deltay=event.pos[1]-self.startPos[1]
                                 self.startPos=event.pos
                                 self.h+=self.deltay
+                    if event.type==pg.MOUSEBUTTONUP:
+                        if hasattr(self, "startPos"): del self.startPos
             pg.display.flip()
